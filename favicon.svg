@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Velvety Deep Burgundy Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#340C16" />
+      <stop offset="50%" stop-color="#22050D" />
+      <stop offset="100%" stop-color="#120307" />
+    </linearGradient>
+
+    <!-- Luxury Rose Gold Rim Gradient -->
+    <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE5DE" />
+      <stop offset="35%" stop-color="#E8A69E" />
+      <stop offset="70%" stop-color="#C0626B" />
+      <stop offset="100%" stop-color="#FCE1D8" />
+    </linearGradient>
+
+    <!-- Subtle Inner Glow -->
+    <radialGradient id="innerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D27B75" stop-opacity="0.36" />
+      <stop offset="65%" stop-color="#6E1E2A" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Rose Gold Metallic Gradients for Monogram -->
+    <!-- Light Facet (Champagne Rose Light) -->
+    <linearGradient id="roseGoldLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="30%" stop-color="#FFF0EB" />
+      <stop offset="75%" stop-color="#F5DDD6" />
+      <stop offset="100%" stop-color="#E8BDB4" />
+    </linearGradient>
+
+    <!-- Medium Facet (Blush Rose Shimmer) -->
+    <linearGradient id="roseGoldMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8D3CB" />
+      <stop offset="50%" stop-color="#DE8A82" />
+      <stop offset="100%" stop-color="#B2555F" />
+    </linearGradient>
+
+    <!-- Deep Facet (Velvet Wine Shadow) -->
+    <linearGradient id="roseGoldDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B85864" />
+      <stop offset="60%" stop-color="#7B1E2E" />
+      <stop offset="100%" stop-color="#4C101B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Squircle with Rose Gold Border -->
+  <rect x="14" y="14" width="484" height="484" rx="120" fill="url(#bgGrad)" stroke="url(#rimGrad)" stroke-width="7" />
+
+  <!-- Delicate Inset Decorative Dashed Border -->
+  <rect x="30" y="30" width="452" height="452" rx="104" fill="none" stroke="url(#rimGrad)" stroke-width="1.5" stroke-opacity="0.32" stroke-dasharray="8 6" />
+
+  <!-- Center Ambient Soft Warm Aura -->
+  <circle cx="256" cy="256" r="180" fill="url(#innerGlow)" />
+
+  <!-- ================= LUXURY MONOGRAM 'H' ================= -->
+  <g>
+    <!-- LEFT STEM -->
+    <!-- Left Half (Champagne Highlight) -->
+    <path d="M 138,124 
+             L 180,124 
+             L 180,388 
+             L 138,388 
+             C 156,384 162,372 162,356 
+             L 162,156 
+             C 162,140 156,128 138,124 
+             Z" 
+          fill="url(#roseGoldLight)" />
+
+    <!-- Right Half (Rose Gold Shimmer) -->
+    <path d="M 180,124 
+             L 222,124 
+             C 204,128 198,140 198,156 
+             L 198,356 
+             C 198,372 204,384 222,388 
+             L 180,388 
+             Z" 
+          fill="url(#roseGoldMid)" />
+
+    <!-- RIGHT STEM -->
+    <!-- Left Half (Rose Gold Shimmer) -->
+    <path d="M 290,124 
+             L 332,124 
+             L 332,388 
+             L 290,388 
+             C 308,384 314,372 314,356 
+             L 314,156 
+             C 314,140 308,128 290,124 
+             Z" 
+          fill="url(#roseGoldMid)" />
+
+    <!-- Right Half (Champagne Highlight) -->
+    <path d="M 332,124 
+             L 374,124 
+             C 356,128 350,140 350,156 
+             L 350,356 
+             C 350,372 356,384 374,388 
+             L 332,388 
+             Z" 
+          fill="url(#roseGoldLight)" />
+
+    <!-- ELEGANT CROSSBAR -->
+    <!-- Top Bevel -->
+    <path d="M 198,244 L 314,244 L 314,256 L 198,256 Z" fill="url(#roseGoldLight)" />
+    <!-- Bottom Bevel -->
+    <path d="M 198,256 L 314,256 L 314,268 L 198,268 Z" fill="url(#roseGoldDark)" />
+
+    <!-- Central Sparkling Diamond Nexus -->
+    <polygon points="256,238 272,256 256,274 240,256" fill="#FFFFFF" />
+  </g>
+
+  <!-- ================= SIGNATURE SPARK STARS ================= -->
+  <!-- Primary Spark Star on Upper Right Shoulder of 'H' (Inside Frame) -->
+  <g transform="translate(384, 144)">
+    <!-- Soft Aura behind Star -->
+    <circle cx="0" cy="0" r="24" fill="#D27B75" opacity="0.3" />
+    <!-- 4-Point Faceted Spark Star -->
+    <!-- Top Ray -->
+    <polygon points="0,-44 0,0 -8.5,0" fill="url(#roseGoldMid)" />
+    <polygon points="0,-44 0,0 8.5,0" fill="#FFFFFF" />
+    <!-- Bottom Ray -->
+    <polygon points="0,44 0,0 -8.5,0" fill="#FFFFFF" />
+    <polygon points="0,44 0,0 8.5,0" fill="url(#roseGoldDark)" />
+    <!-- Left Ray -->
+    <polygon points="-44,0 0,0 0,-8.5" fill="#FFFFFF" />
+    <polygon points="-44,0 0,0 0,8.5" fill="url(#roseGoldDark)" />
+    <!-- Right Ray -->
+    <polygon points="44,0 0,0 0,-8.5" fill="#FFFFFF" />
+    <polygon points="44,0 0,0 0,8.5" fill="url(#roseGoldMid)" />
+    <!-- Center Sparkling Core -->
+    <circle cx="0" cy="0" r="5" fill="#FFFFFF" />
+  </g>
+
+  <!-- Delicate Secondary Micro-Star (Bottom Left) -->
+  <g transform="translate(128, 368)">
+    <circle cx="0" cy="0" r="10" fill="#E8A69E" opacity="0.25" />
+    <!-- 4-Point Star -->
+    <polygon points="0,-16 0,0 -3.5,0" fill="#FFFFFF" />
+    <polygon points="0,-16 0,0 3.5,0" fill="#FFFFFF" />
+    <polygon points="0,16 0,0 -3.5,0" fill="#FFFFFF" />
+    <polygon points="0,16 0,0 3.5,0" fill="#E8A69E" />
+    <polygon points="-16,0 0,0 0,-3.5" fill="#FFFFFF" />
+    <polygon points="-16,0 0,0 0,3.5" fill="#E8A69E" />
+    <polygon points="16,0 0,0 0,-3.5" fill="#FFFFFF" />
+    <polygon points="16,0 0,0 0,3.5" fill="#FFFFFF" />
+    <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" />
+  </g>
+</svg>
